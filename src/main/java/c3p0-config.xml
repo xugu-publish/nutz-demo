@@ -1,0 +1,37 @@
+<c3p0-config>
+  <default-config>   
+    <property name="user">SYSDBA</property>
+    <property name="password">SYSDBA</property>
+    <property name="driverClass">com.xugu.cloudjdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:xugu://192.168.2.231:5138/system</property>
+ 
+    <property name="initialPoolSize">10</property>
+    <property name="maxIdleTime">30</property>
+    <property name="maxPoolSize">10</property>
+    <property name="minPoolSize">1</property>
+  </default-config>
+ 
+  <named-config name="mySource">
+    <property name="user">SYSDBA</property>
+    <property name="password">SYSDBA</property>
+    <property name="driverClass">com.xugu.cloudjdbc.Driver</property>
+    <!-- <property name="jdbcUrl">jdbc:xugu://192.168.2.210:5140/javatdb?recv_mode=2&amp;ips=192.168.2.210,192.168.2.210,192.168.2.210,192.168.2.210</property>  -->
+    <property name="jdbcUrl">jdbc:xugu://192.168.2.212:5140/system?</property>
+    <property name="initialPoolSize">10</property>
+    <property name="maxIdleTime">60</property>
+    <property name="maxPoolSize">10</property>
+    <property name="minPoolSize">10</property>
+  </named-config>
+  <named-config name="mySourcelocal">
+    <property name="user">SYSDBA</property>
+    <property name="password">SYSDBA</property>
+    <property name="driverClass">com.xugu.cloudjdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:xugu://192.168.2.213:1993/system?recv_mode=2&amp;ips=192.168.2.214,192.168.2.215,192.168.2.216,192.168.2.217</property>  
+    <!-- <property name="jdbcUrl">jdbc:xugu://192.168.2.55:5138/cao?</property> --> 
+    <property name="initialPoolSize">10</property>
+    <property name="maxIdleTime">60</property>
+    <property name="maxPoolSize">10</property>
+    <property name="minPoolSize">10</property>
+  </named-config>
+</c3p0-config>
+ 
