@@ -1,5 +1,5 @@
- #Ðé¹ÈÊý¾Ý¿âÊ¹ÓÃNutz¿ò¼ÜµÄdemo³ÌÐò
- 1¡¢Ê¹ÓÃC3P0×÷ÎªÁ¬½Ó³Ø£¬c3p0-config.xmlÎªÐé¹ÈÊý¾Ý¿âÁ¬½ÓÅäÖÃÎÄ¼þ
- 2¡¢TestTableÎªÊµÌåÀà£¬idÊÇÖ÷¼ü£¬×ÔÔö³¤¼ü¡£
- 3¡¢NutzTestÀàÎª²âÊÔÀà¡£ÊµÏÖÁË×Ô¶¯´´±í£¨t_test£©£¬¶Ô±íÈ«±í²éÑ¯¡¢¸ø¶¨Ö÷¼üÖµµÄ²éÑ¯¡¢ÔöÉ¾¸Ä¡¢ÅúÁ¿ÔöÉ¾¸ÄºÍÖ´ÐÐ×Ô¶¨ÒåSQLµÈ¹¦ÄÜ¡£
- 4¡¢target/libÎªÐé¹ÈJDBCÇý¶¯
+ #è™šè°·æ•°æ®åº“ä½¿ç”¨Nutzæ¡†æž¶çš„demoç¨‹åº
+ 1. ä½¿ç”¨C3P0ä½œä¸ºè¿žæŽ¥æ± ï¼Œc3p0-config.xmlä¸ºè™šè°·æ•°æ®åº“è¿žæŽ¥é…ç½®æ–‡ä»¶
+ 2. TestTableä¸ºå®žä½“ç±»ï¼Œidæ˜¯ä¸»é”®ï¼Œè‡ªå¢žé•¿é”®ã€‚
+ 3. NutzTestç±»ä¸ºæµ‹è¯•ç±»ã€‚å®žçŽ°äº†è‡ªåŠ¨åˆ›è¡¨ï¼ˆt_testï¼‰ï¼Œå¯¹è¡¨å…¨è¡¨æŸ¥è¯¢ã€ç»™å®šä¸»é”®å€¼çš„æŸ¥è¯¢ã€å¢žåˆ æ”¹ã€æ‰¹é‡å¢žåˆ æ”¹å’Œæ‰§è¡Œè‡ªå®šä¹‰SQLç­‰åŠŸèƒ½ã€‚
+ 4. target/libä¸ºè™šè°·JDBCé©±åŠ¨
